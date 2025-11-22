@@ -1,4 +1,13 @@
 from cnnClassifier import logger
+from cnnClassifier.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
 
-logger.info("Welcome to our logs i am just checking")
-https://drive.google.com/file/d/1cJuzLY5w8LX_yfydDkEUUBQRzso8QwLZ/view?usp=drive_link
+
+STAGE_NAME = "Data Ingestion stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = DataIngestionTrainingPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
