@@ -1,0 +1,15 @@
+artifact_uri: file:///home/shabbir/Kidney-Disease-Classification/mlruns/0/34cca514f92f4b43aa2d2d6d669879c5/artifacts
+end_time: 1764511276988
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34cca514f92f4b43aa2d2d6d669879c5
+run_name: honorable-hare-165
+run_uuid: 34cca514f92f4b43aa2d2d6d669879c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764511267531
+status: 4
+tags: []
+user_id: shabbir

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/shabbir/Kidney-Disease-Classification/mlruns/0/331e937b1589426fb9be8a35a442ad73/artifacts
+end_time: 1764586231417
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 331e937b1589426fb9be8a35a442ad73
+run_name: kindly-asp-141
+run_uuid: 331e937b1589426fb9be8a35a442ad73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764586218162
+status: 4
+tags: []
+user_id: shabbir
